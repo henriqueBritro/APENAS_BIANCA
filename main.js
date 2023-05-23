@@ -12,7 +12,7 @@ function draw(){
   image(video, 0, 250, 300, 300)
   classifier.classify(video, gotResult)
 }
-var previous_result='';
+var previousResult='';
 
 
 function gotResult(error,results) {
